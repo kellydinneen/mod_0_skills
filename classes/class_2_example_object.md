@@ -2,11 +2,11 @@
 
 ### Attributes:
 - `var tableNumber = 5`
-- `waiter = "Molly"`
-- `isReserved = false`
-- `numberOfSeats = 4`
-- `customersSeated = ["Kelly", "Livvy", "Ella"]`
-- `isSet = true`
+- `var waiter = "Molly"`
+- `var isReserved = false`
+- `var numberOfSeats = 4`
+- `var customersSeated = ["Kelly", "Livvy", "Ella"]`
+- `var isSet = true`
 
 ### Methods:
 

@@ -18,7 +18,7 @@ customersSeated.push("Will");
 ```
 - so `customersSeated == ["Kelly", "Livvy", "Ella", "Will"]`
 
-** `setTable` results**
+**`setTable` results**
 
 - `customersSeated.length != 0` so the first conditional's conditional is not satisfied. The console will log : `"Table " + tableNumber + " is ready"` which comes to ``"Table 5 is ready"``
 

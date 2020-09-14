@@ -31,14 +31,14 @@
 - conditional function that assigns a string value to `roastLevel` depending on the values of `acidity`, `aroma`, and `takenWithCream`:
 
 ```
-if ((aroma == "fruity") && (((pH < 4.6) && (takenWithCream = false)) || ((pH < 4.75) && (takenWithCream = true)))) {
+if ((aroma === "fruity") && (((pH < 4.6) && (takenWithCream === false)) || ((pH < 4.75) && (takenWithCream === true)))) {
 roastLevel = "light";
-} else if ((aroma == "nutty") && (((pH > 4.6) && (pH < 5.2) && (takenWithCream = false)) || ((pH > 4.75) && (pH < 5.35) && (takenWithCream = true)))) {
+} else if ((aroma === "nutty") && (((pH > 4.6) && (pH < 5.2) && (takenWithCream === false)) || ((pH > 4.75) && (pH < 5.35) && (takenWithCream === true)))) {
 roastLevel = "dark";
 } else if (
-  ((aroma = "fruity") && (((pH > 4.6) && (pH < 5.2) && (takenWithCream = false)) || ((pH > 4.75) && (pH < 5.35) && (takenWithCream = true)))) ||  ((aroma == "nutty") && (((pH < 4.6) && (takenWithCream = false)) || ((pH < 4.75) && (takenWithCream = true))))) {
+  ((aroma === "fruity") && (((pH > 4.6) && (pH < 5.2) && (takenWithCream === false)) || ((pH > 4.75) && (pH < 5.35) && (takenWithCream === true)))) ||  ((aroma === "nutty") && (((pH < 4.6) && (takenWithCream === false)) || ((pH < 4.75) && (takenWithCream === true))))) {
   roastLevel = "medium";
 } else {
-  roastLevel = "burnt or worse"
+  roastLevel = "burnt or worse";
 }
 ```

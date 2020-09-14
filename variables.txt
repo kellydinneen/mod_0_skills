@@ -1,0 +1,18 @@
+
+var food = "macaroni";
+
+var is_delicious = true;
+
+food = "garlic";
+
+var num2 = 20;
+
+var num7 = 70;
+
+var quotient = num7 / num2;
+
+var songs = ["Zippitydooda", "Happy Birthday", "Call Me Maybe"];
+
+songs.shift();
+
+food.length;

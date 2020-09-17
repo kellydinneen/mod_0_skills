@@ -15,7 +15,7 @@
 - `temperatureDegreesF = 92.1`
 
 **results of `tellAboutOrigin`**
-- the console logs `"These beans were grown on a farm in Colombia.")`
+- the console logs `"These beans were grown on a farm in Colombia."`
 
 **results of `coolOff`**
 - assuming this is done after `addCream` method then `temperatureDegreesF = 82.1`

@@ -3,7 +3,7 @@
 ### Attributes:
 - `var temperatureDegreesF = 97.1`
 - `var takenWithCream = false`
-- `var originCountry = Colombia`
+- `var originCountry = "Colombia"`
 - `var pH = 4.4`
 - `var aroma = "fruity"`
 - `var roastLevel = ""` (assigned with `calculateRoastLevel` method below)
